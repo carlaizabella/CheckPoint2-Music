@@ -1,11 +1,19 @@
 
 
 
-
+.navbar-collapse {
+    flex-grow: 0;
+}
 
 footer {
+    height: 30vh;
+
     background-color: #171717;
     padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 footer p {
