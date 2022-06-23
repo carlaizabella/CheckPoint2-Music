@@ -1,0 +1,36 @@
+
+
+
+
+
+footer {
+    background-color: #171717;
+    padding: 30px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-alunos {
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .footer-container {
+        flex-direction: row;
+    }
+}
