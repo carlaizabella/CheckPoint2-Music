@@ -12,7 +12,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Musica | Home</title>
+
+    <title>Home Page</title>
   </head>
   <body>
     <header>
@@ -38,7 +39,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Itens</a>
+                <a class="nav-link" href="#cantores">Cantores </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobre nós</a>
@@ -53,33 +54,6 @@
         </div>
       </nav>
     </header>
-
-    <div class="modal modal-lg" tabindex="-1" id="login-modal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Login</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <form action="post">
-            <div class="modal-body">
-              <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required placeholder="email@me.com">
-              </div>
-              <div>
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" required >
-              </div>
-            </div>
-            <div class="modal-footer">  
-              <button type="button" class="btn btn-primary">Login</button>
-          </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <section class="banner">
       <div class="banner-container">
         <div class="banner-text">
@@ -89,28 +63,31 @@
             quibusdam beatae dolores incidunt nobis, assumenda iure veniam,
             similique, nihil enim
           </p>
-          <a href="#"> Explorar</a>
+          <a href="#cantores"> Explorar</a>
           <!-- linkar aos cards -->
         </div>
       </div>
     </section>
 
     <main>
-      <div class="container">
-        <h3 class="card-title">Cantores</h3>
+      <div class="container-titleCantores" id="cantores">
+        <h3 class="card-title">Meus Cantores Favoritos</h3>
       </div>
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col size-card">
+        <div class="col">
           <div class="card bruno-mars background-image">
             <div class="card-body">
               <h5 class="card-stitle">Bruno Mars</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Peter Gene Hernandez, mais conhecido pelo nome artístico Bruno
+                Mars é um cantor, compositor, produtor musical, dançarino e
+                multi-instrumentista americano, nascido e criado no Havaí. Vindo
+                de uma família com uma grande tradição musical, Mars começou a
+                cantar e a se apresentar como um artista amador durante a
+                infância
               </p>
-              <a href="#">Assistir</a>
+              <a href="bruno-mars.html">Assistir</a>
             </div>
           </div>
         </div>
@@ -119,49 +96,46 @@
           <div class="card coldplay background-image">
             <div class="card-body">
               <h5 class="card-title">Coldplay</h5>
-              <p class="card-text">This is a short card.</p>
-              <a href="#">Assistir</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col size-card">
-          <div class="card earth-wind-fire background-image">
-            <div class="card-body">
-              <h5 class="card-title">Earth Wind Fire</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                Os membros do Coldplay se conheceram na Universidade de Londres
+                em 1996. Os primeiros membros da banda foram o cantor e pianista
+                Chris Martin e o guitarrista Jonny Buckland, e a banda se
+                chamava Pectoralz. O segundo nome da banda era Starfish, depois
+                que Guy Berryman se juntou à banda como baixista
               </p>
-              <a href="#">Assistir</a>
+              <a href="coldplay.html">Assistir</a>
             </div>
           </div>
         </div>
 
-        <div class="col size-card">
-          <div class="card marron-5 background-image">
-            <div class="card-body">
-              <h5 class="card-title">Maroon 5</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <a href="#">Assistir</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col size-card">
+        <div class="col">
           <div class="card michael-jackson background-image">
             <div class="card-body">
               <h5 class="card-title">Michael Jackson</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Michael Joseph Jackson nasceu no dia 29 de agosto de 1958, na
+                cidade de Gary, no estado de Indiana, Estados Unidos (EUA). A
+                família dele era simples e morava em uma casa com apenas dois
+                quartos. Filho de Joseph, mais conhecido como Joe, e Katherine
+                Jackson, o cantor foi o sétimo dos nove filhos do casal.
               </p>
-              <a href="#">Assistir</a>
+              <a href="michael.html">Assistir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card marron-5 background-image">
+            <div class="card-body">
+              <h5 class="card-title">Maroon 5</h5>
+              <p class="card-text">
+                O grupo foi formado em 1994 com o nome de Kara's Flowers
+                enquanto seus membros ainda estavam no ensino médio. Com um
+                line-up de Adam Levine, Jesse Carmichael, Mickey Madden e Ryan
+                Dusick,eles assinaram com a Reprise Records e lançaram um álbum,
+                The Fourth World, em 1997.
+              </p>
+              <a href="maroon.html">Assistir</a>
             </div>
           </div>
         </div>
@@ -171,11 +145,29 @@
             <div class="card-body">
               <h5 class="card-title">Billy Ocean</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Billy Ocean (Leslie Sebastian Charles, 21 de janeiro de 1950,
+                Trindade e Tobago) premiado cantor e compositor pop dos anos 70
+                e 80. História: Leslie Charles mudou-se para o Reino Unido aos 8
+                anos e foi lá que, em 1974, já com o nome artístico que
+                conhecemos, gravou o seu primeiro single.
               </p>
-              <a href="#">Assistir</a>
+              <a href="billy.html">Assistir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card earth-wind-fire background-image">
+            <div class="card-body">
+              <h5 class="card-title">Earth Wind Fire</h5>
+              <p class="card-text">
+                O Earth, Wind & Fire é uma banda renomada dos Estados Unidos
+                fundada em 1969 por Maurice White, a banda domina diferentes
+                estilos musicais como Funk, R&B, Disco Music e Soul. A história
+                do Earth, Wind & Fire começa em Memphis em 1941, onde nasce
+                Maurice White, fundador da banda.
+              </p>
+              <a href="earth-wind-fire.html">Assistir</a>
             </div>
           </div>
         </div>
@@ -185,8 +177,8 @@
     <footer>
       <div class="footer-container">
         <div class="footer-alunos">
-          <h3>primeiro aluno</h3>
-          <p>Responsavel pelo desenvolvimento de</p>
+          <h3>Carla Izabella</h3>
+          <p>Responsavel pelo desenvolvimento de Cards</p>
         </div>
         <div class="footer-alunos">
           <h3>segundo aluno</h3>
@@ -205,5 +197,13 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <script
+      type="text/javascript"
+      src="/CheckPoint2-Music-main/js/vanilla-tilt.js"
+    ></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".col"));
+    </script>
   </body>
 </html>
