@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title></title>
+    <title>Musica | Home</title>
   </head>
   <body>
     <header>
@@ -53,6 +53,33 @@
         </div>
       </nav>
     </header>
+
+    <div class="modal modal-lg" tabindex="-1" id="login-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="post">
+            <div class="modal-body">
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="email@me.com">
+              </div>
+              <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required >
+              </div>
+            </div>
+            <div class="modal-footer">  
+              <button type="button" class="btn btn-primary">Login</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section class="banner">
       <div class="banner-container">
         <div class="banner-text">

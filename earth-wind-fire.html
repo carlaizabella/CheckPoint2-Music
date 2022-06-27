@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Earth Wind & Fire | Musica</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/iconeLogo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler navbar-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Itens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="modal" href="#login-modal"
+                    >Login</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="modal modal-lg" tabindex="-1" id="login-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="post">
+              <div class="modal-body">
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required placeholder="email@me.com">
+                </div>
+                <div>
+                  <label for="senha">Senha</label>
+                  <input type="password" name="senha" id="senha" required >
+                </div>
+              </div>
+              <div class="modal-footer">  
+                <button type="button" class="btn btn-primary">Login</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="banner banner-earth">
+        <div class="banner-container"></div>
+      </section>
+
+      <section class="artistas">
+        <div class="artista-text">
+            <h1>Earth Wind & Fire</h1>
+            <div>
+                <img src="./img/star.png" alt="">
+                <img src="./img/star.png" alt="">
+                <img src="./img/star.png" alt="">
+                <img src="./img/star.png" alt="">
+                <img src="./img/star.png" alt="">
+            </div>
+            <p>O Earth, Wind & Fire é uma banda renomada dos Estados Unidos fundada em 1969 por Maurice White, a banda domina diferentes estilos musicais como funk, R&B, disco music e soul. O sucesso internacional só veio em 1975, com a trilha sonora de That's The Way Of The World. Apesar do filme não ter feito grande sucesso, a trilha sonora feita inteiramente pelo Earth Wind & Fire foi um sucesso com canções como "Shining Star", "That's The Way Of The World", "Africano" e "Reasons" que deram ao grupo o Grammy de melhor álbum de funk </p>
+        </div>
+        <div class="artista-links">
+            <div>
+                <span>Spotify</span>
+                <a href="https://open.spotify.com/artist/4QQgXkCYTt3BlENzhyNETg?si=CrgbkZThREemAxTgA_R-TA" target="_blank"><img src="./img/spotify-brands.svg" alt=""></a>
+            </div>
+            <div>
+                <span>Amazon Music</span>
+                <a href="https://music.amazon.com.br/artists/B000QJKEJW/earth-wind-fire?marketplaceId=A2Q3Y263D00KWC&musicTerritory=BR&ref=dm_sh_cR0TkF6iOSoTZ5yL8boqkPAtq" target="_blank"><img src="./img/amazon-brands.svg" alt=""></a>
+            </div>
+            <div>
+                <span>Deezer</span>
+                <a href="https://deezer.page.link/EEuUw7ArHrSYDchX6" target="_blank"><img src="./img/deezer-brands.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="artista-video">
+            <h2>Vídeo</h2>
+            <iframe src="https://www.youtube.com/embed/Lrle0x_DHBM" title="Earth, Wind & Fire - Let's Groove (Official HD Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      
+      
+      <footer>
+        <div class="footer-container">
+          <div class="footer-alunos">
+            <h3>primeiro aluno</h3>
+            <p>Responsavel pelo desenvolvimento de</p>
+          </div>
+          <div class="footer-alunos">
+            <h3>segundo aluno</h3>
+            <p>Responsavel pelo desenvolvimento de</p>
+          </div>
+          <div class="footer-alunos">
+            <h3>terceiro aluno</h3>
+            <p>Responsavel pelo desenvolvimento de</p>
+          </div>
+        </div>
+        <p>Checkpoint 2 desenvolvido em 2022</p>
+      </footer>
+  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

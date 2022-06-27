@@ -192,6 +192,93 @@ main {
   opacity: 1;
 }
 
+
+/* estilização da seção dos artistas */
+
+.banner-bruno {
+    background-image: url(../img/banner-bruno-mars.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-billy {
+    background-image: url(../img/Press-Billy-Ocean.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-michael {
+    background-image: url(../img/Michael-Jackson-halftime-show-Super-Bowl-XXVII-1993.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.banner-earth {
+    background-image: url(../img/Earth-Wind-Fire.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.banner-maroon {
+    background-image: url(../img/maroon5.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.banner-coldplay {
+    background-image: url(../img/coldplay.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.artistas {
+    margin: 30px 60px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.artista-text h1 {
+    font-size: 3rem;
+}
+
+.artista-text p {
+    font-size: 1.2rem;
+}
+
+.artista-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artista-links span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.artista-links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artista-links div img {
+    width: 30px;
+}
+
+.artista-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
 /* estilização do footer */
 
 footer {
@@ -235,6 +322,16 @@ footer p {
 
   .banner-text {
     width: 40%;
+  }
+
+  .artista-links {
+    justify-content: flex-start;
+    gap: 100px;
+  }
+
+  iframe {
+    width: 60%;
+    margin: 0% 20%;
   }
 
   .footer-container {
