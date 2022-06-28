@@ -194,37 +194,37 @@ main {
 }
 
 .bruno-mars {
-  background-image: url(/img/BrunoMars_new.webp);
+  background-image: url(../img/BrunoMars_new.webp);
   background-position: center;
   background-size: 335px 510px;
 }
 
 .coldplay {
-  background-image: url(/img/coldplay-new.jpg);
+  background-image: url(../img/coldplay-new.jpg);
   background-position: center;
   background-size: 520px 520px;
 }
 
 .michael-jackson {
-  background-image: url(/img/Michael_Jackson.webp);
+  background-image: url(../img/Michael_Jackson.webp);
   background-position: center;
   background-size: 335px 520px;
 }
 
 .marron-5 {
-  background-image: url(/img/maroon-.jpg);
+  background-image: url(../img/maroon-.jpg);
   background-position: center;
   background-size: 335px 520px;
 }
 
 .billy-ocean {
-  background-image: url(/img/Press-Billy-Ocean.webp);
+  background-image: url(../img/Press-Billy-Ocean.webp);
   background-position: center;
   background-size: 520px 520px;
 }
 
 .earth-wind-fire {
-  background-image: url(/img/earth-wind-fire.jpg);
+  background-image: url(../img/earth-wind-fire.jpg);
   background-position: center;
   background-size: 335px 520px;
 }
