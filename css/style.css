@@ -105,6 +105,14 @@ input[type="email"]:focus,
   border: 1px solid greenyellow;
   border-radius: 30px;
   padding: 20px 30px;
+
+  transition: 0.2s ease-in;
+}
+
+.banner-text a:hover {
+  background-color: greenyellow;
+
+  color: #000;
 }
 
 .banner-text {
