@@ -194,13 +194,13 @@ main {
 }
 
 .bruno-mars {
-  background-image: url(./img/BrunoMars_new.webp);
+  background-image: url(/img/BrunoMars_new.webp);
   background-position: center;
   background-size: 335px 510px;
 }
 
 .coldplay {
-  background-image: url(./img/coldplay-new.jpg);
+  background-image: url(../img/coldplay-new.jpg);
   background-position: center;
   background-size: 520px 520px;
 }
@@ -224,7 +224,7 @@ main {
 }
 
 .earth-wind-fire {
-  background-image: url(./img/earth-wind-fire.jpg);
+  background-image: url(../img/earth-wind-fire.jpg);
   background-position: center;
   background-size: 335px 520px;
 }
