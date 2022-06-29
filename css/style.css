@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 /* estilização do header  */
@@ -399,6 +400,18 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-links{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links img {
+  width: 30px;
 }
 
 @media (min-width: 768px) {
