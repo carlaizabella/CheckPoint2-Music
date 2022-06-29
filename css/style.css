@@ -238,6 +238,14 @@ main {
   background-size: 335px 520px;
 }
 
+
+.sobre-nos{
+  background-image: url("../img/cantores/sobre-nos-background.jpg");
+  background-position: center;
+  background-size: 330px 520px;
+}
+
+
 .col .card .card-body {
   padding: 20px;
   text-align: center;

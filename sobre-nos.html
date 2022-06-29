@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./homepage.html"
+            ><img src="./img/icone/icone-logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html#home" id="home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="homepage.html#cantores">Cantores </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre-nos.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" href="#login-modal"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="modal modal-lg" tabindex="-1" id="login-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="post">
+            <div class="modal-body">
+              <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="email@me.com">
+              </div>
+              <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required >
+              </div>
+            </div>
+            <div class="modal-footer">  
+               <a href="homepage.html">
+                <button type="button" class="btn btn-primary">
+                  
+                    Login
+                  
+                </button>
+              </a>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="banner">
+      <div class="banner-container">
+        <div class="banner-text">
+          <h1>Musica</h1>
+          <p>
+           Confira alguns de nossos artistas favoritos
+          </p>
+          <a href="#cantores"> Explorar</a>
+          <!-- linkar aos cards -->
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="container-titleCantores" id="cantores">
+        <h3 class="card-title">Sobre Nós!</h3>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card sobre-nos background-image">
+            <div class="card-body">
+              <h5 class="card-stitle">Carla Izabella</h5>
+              <p class="card-text">
+                Estudante da escola Digital House. Gosta de fazer amizades e jogar conversa fora.
+                Mas, também gosta de ter seu momento sozinha, onde aproveita para admirar a natureza.
+
+                Seu maior hobby é dormir e comer, HAHA!Ela gosta de assistir séries, doramas, filmes, escutar músicas, dançar e tocar. 
+                Têm dois cachorros, cujo nomes Chokito e Cacau. 
+        
+              </p>
+              <!-- <a href="bruno-mars.html">Assistir</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card sobre-nos background-image">
+            <div class="card-body">
+              <h5 class="card-title">Gustavo Oliveira</h5>
+              <p class="card-text">
+                O Earth, Wind & Fire é uma banda renomada dos Estados Unidos
+                fundada em 1969 por Maurice White, a banda domina diferentes
+                estilos musicais como Funk, R&B, Disco Music e Soul. A história
+                do Earth, Wind & Fire começa em Memphis em 1941, onde nasce
+                Maurice White, fundador da banda.
+              </p>
+              <!-- <a href="earth-wind-fire.html">Assistir</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-alunos">
+          <h3>Carla Izabella</h3>
+          <p>Responsavel pelo desenvolvimento de Home Page e Linkar páginas</p>
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/carla-izabella-a35b2218a/" target="_blank"><img src="./img/icone/icone-linkedin.png" alt=""></a>
+            <a href="https://github.com/carlaizabella" target="_blank"><img src="./img/icone/icone-github.png" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-alunos">
+          <h3>Gustavo de Oliveira</h3>
+          <p>Responsavel pelo desenvolvimento Login e Descrição dos artistas</p>
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/gustavo-de-oliveira-azevedo-286232214/" target="_blank"><img src="./img/icone/icone-linkedin.png" alt=""></a>
+            <a href="https://github.com/gutolive09" target="_blank"><img src="./img/icone/icone-github.png" alt=""></a>
+          </div>
+        </div>
+        
+      </div>
+      <p>Checkpoint 2 desenvolvido em 2022</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="./js/vanilla-tilt.js"
+    ></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".col"));
+    </script>
+  </body>
+</html>
