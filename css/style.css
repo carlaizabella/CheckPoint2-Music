@@ -202,19 +202,19 @@ main {
 }
 
 .bruno-mars {
-  background-image: url(../img/BrunoMars_new.webp);
+  background-image: url(.../img/BrunoMars_new.webp);
   background-position: center;
   background-size: 335px 510px;
 }
 
 .coldplay {
-  background-image: url(../img/coldplay-new.jpg);
+  background-image: url(./img/coldplay-new.jpg);
   background-position: center;
   background-size: 520px 520px;
 }
 
 .michael-jackson {
-  background-image: url(../img/Michael_Jackson.webp);
+  background-image: url(/img/Michael_Jackson.webp);
   background-position: center;
   background-size: 335px 520px;
 }
