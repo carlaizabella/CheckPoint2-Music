@@ -221,19 +221,19 @@ main {
 }
 
 .marron-5 {
-  background-image: url("../img/cantores/maroon-.jpg");
+  background-image: url("./img/cantores/maroon-.jpg");
   background-position: center;
   background-size: 335px 520px;
 }
 
 .billy-ocean {
-  background-image: url("../img/cantores/Press-Billy-Ocean.webp");
+  background-image: url("./img/cantores/Press-Billy-Ocean.webp");
   background-position: center;
   background-size: 520px 520px;
 }
 
 .earth-wind-fire {
-  background-image: url("../img/cantores/earth-wind-fire.jpg");
+  background-image: url("./img/cantores/earth-wind-fire.jpg");
   background-position: center;
   background-size: 335px 520px;
 }
