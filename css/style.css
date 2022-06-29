@@ -81,7 +81,7 @@ input[type="email"]:focus,
 /* estilização do banner */
 
 .banner {
-  background-image: url("/img/banner-img/background-banner.png");
+  background-image: url("../img/banner-img/background-banner.png");
   background-repeat: no-repeat;
   background-position: right;
 
@@ -221,19 +221,19 @@ main {
 }
 
 .marron-5 {
-  background-image: url("./img/cantores/maroon-.jpg");
+  background-image: url("../img/cantores/maroon-.jpg");
   background-position: center;
   background-size: 335px 520px;
 }
 
 .billy-ocean {
-  background-image: url("./img/cantores/Press-Billy-Ocean.webp");
+  background-image: url("../img/cantores/Press-Billy-Ocean.webp");
   background-position: center;
   background-size: 520px 520px;
 }
 
 .earth-wind-fire {
-  background-image: url("./img/cantores/earth-wind-fire.jpg");
+  background-image: url("../img/cantores/earth-wind-fire.jpg");
   background-position: center;
   background-size: 335px 520px;
 }
@@ -285,37 +285,37 @@ main {
 /* estilização da seção dos artistas */
 
 .banner-bruno {
-  background-image: url("/img/banner-img/banner-bruno-mars.jpg");
+  background-image: url("../img/banner-img/banner-bruno-mars.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .banner-billy {
-  background-image: url("/img/banner-img/Press-Billy-Ocean.webp");
+  background-image: url("../img/banner-img/Press-Billy-Ocean.webp");
   background-position: center;
   background-size: cover;
 }
 
 .banner-michael {
-  background-image: url("/img/banner-img/Michael-Jackson-halftime-show-Super-Bowl-XXVII-1993.jpg");
+  background-image: url("../img/banner-img/Michael-Jackson-halftime-show-Super-Bowl-XXVII-1993.jpg");
   background-position: top;
   background-size: cover;
 }
 
 .banner-earth {
-  background-image: url("/img/banner-img/Earth-Wind-Fire.jpg");
+  background-image: url("../img/banner-img/Earth-Wind-Fire.jpg");
   background-position: top;
   background-size: cover;
 }
 
 .banner-maroon {
-  background-image: url("/img/banner-img/maroon5.jpg");
+  background-image: url("../img/banner-img/maroon5.jpg");
   background-position: top;
   background-size: cover;
 }
 
 .banner-coldplay {
-  background-image: url("/img/banner-img/coldplay.jpg");
+  background-image: url("../img/banner-img/coldplay.jpg");
   background-position: top;
   background-size: cover;
 }
